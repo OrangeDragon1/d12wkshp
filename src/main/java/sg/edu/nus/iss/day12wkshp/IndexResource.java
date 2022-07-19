@@ -10,6 +10,7 @@ import java.util.Calendar;
 
 @Controller
 @RequestMapping(path= {"/indexresource", "/indexresource.html"})
+
 public class IndexResource {
     
     @GetMapping(produces = {"text/html"})
