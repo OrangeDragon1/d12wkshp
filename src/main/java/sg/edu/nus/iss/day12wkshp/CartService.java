@@ -29,6 +29,36 @@ public class CartService {
         itm.setQuantity(8);
         lstItems.add(itm);
 
+        itm = new Item();
+        itm.setItemName("LV Wallet");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("LV Top");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("LV Pants");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("LV Shoe");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("LV Backpack");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("LV Luggage");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
         return lstItems;
     }
 }
